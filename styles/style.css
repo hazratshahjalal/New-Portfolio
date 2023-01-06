@@ -152,6 +152,7 @@ main {
 .skills-container {
   display: flex;
   gap: 24px;
+  margin-bottom: 40px;
 }
 
 .skill-title {
@@ -177,14 +178,14 @@ main {
 
 .resume-container {
   display: flex;
-  gap: 40px;
+  gap: 60px;
 }
 
 .education-ex-title {
   font-weight: 700;
   font-size: 30px;
   color: #474747;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .resume-title {
@@ -198,15 +199,62 @@ main {
   font-weight: 600;
   font-size: 20px;
   color: #757575;
+  margin: 15px 0;
 }
 
 .resume-description {
   font-size: 16px;
   font-weight: 400;
   color: #757575;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 hr {
   margin: 15px 0;
+}
+
+.resume .button-primary {
+  display: flex;
+  align-items: center;
+  margin: 30px auto;
+}
+
+/* footer styles */
+footer {
+  background-color: #FFF8F3;
+}
+
+.footer {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  gap: 100px;
+
+}
+
+.footer-title {
+  margin: 130px 0 30px;
+  font-weight: 700;
+  font-size: 35px;
+  color: #474747;
+}
+
+.footer-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #474747;
+  margin-bottom: 30px;
+  max-width: 70%;
+}
+
+input,
+textarea {
+  margin-bottom: 24px;
+  border: 0;
+  width: 90%;
+  padding: 20px 30px;
+}
+
+input[type="submit"] {
+  width: 50%;
 }
